@@ -1,2 +1,58 @@
 # Hand-Gesture-Controlled-Presentation
 cvzone lib
+# working video
+
+
+https://github.com/Psrijith/Hand-Gesture-Controlled-Presentation/assets/118285872/5d3caca9-4fd8-43d7-aca8-3b2ef80ec0f3
+
+
+
+
+This project is a gesture-based presentation control system using computer vision. It allows users to navigate through a presentation using hand gestures. Additionally, it supports a drawing feature, enabling users to annotate slides in real-time using their index finger.
+
+Rules:
+Slide Navigation:
+
+Left Gesture: Extend your index finger while keeping the other fingers down to navigate to the previous slide.
+Right Gesture: Extend your thumb while keeping the other fingers down to navigate to the next slide.
+Pointer Mode:
+
+Raise your index and middle fingers to activate the pointer mode. Move your hand to control the pointer on the screen.
+Drawing Mode:
+
+Raise your index finger and lower the rest to enter drawing mode. Move your hand to draw on the screen.
+Erasing:
+
+Make a fist to erase the drawn annotations.
+How to Run:
+Install Required Libraries:
+
+Make sure you have the required libraries installed. You can install them using the following:
+Copy code
+pip install opencv-python
+pip install mediapipe
+pip install cvzone
+Download Project Files:
+
+Download the project files, including the presentation images and the HandTrackingModule from CVZone.
+Run the Code:
+
+Execute the Python script containing the project code.
+Copy code
+python your_script_name.py
+Ensure that your camera is accessible, and you are in a well-lit environment.
+Interact with Gestures:
+
+Follow the rules mentioned above to navigate through slides, use the pointer, draw, and erase.
+Libraries Used:
+OpenCV: A computer vision library for image and video processing.
+Mediapipe: A library for hand tracking and pose estimation.
+CVZone: A computer vision library that extends OpenCV functionalities.
+Note:
+Make sure to adjust the path to the presentation folder in the script to match the location of your downloaded presentation images.
+
+Feel free to customize and extend the functionality based on your requirements!
+source :- (https://youtu.be/CKmAZss-T5Y?feature=shared)
+
+
+
