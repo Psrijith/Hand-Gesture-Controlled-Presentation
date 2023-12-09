@@ -55,4 +55,6 @@ Feel free to customize and extend the functionality based on your requirements!
 source :- (https://youtu.be/CKmAZss-T5Y?feature=shared)
 
 
+# Draw on face , inspired from above video 
 
+This hand-tracking drawing application utilizes OpenCV and the CVZone library, allowing users to create drawings on-screen through intuitive hand gestures. By raising three fingers, a pointer is displayed, while pointing two fingers dynamically changes the drawing color based on the color palette. The application enables drawing with the currently selected color using four fingers and offers an erasing function by raising all five fingers. Additionally, users can hold one finger on the desired color in the palette to select it. To run the project, install required libraries, download the CVZone library, and execute the Python script. Follow the defined rules for interaction and exit the application by pressing the 'Q' key. Ensure proper camera access and lighting conditions for optimal hand detection.
